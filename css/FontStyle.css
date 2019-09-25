@@ -1,12 +1,12 @@
 html,
 body {
-  min-height: 100vh;
+  min-height: 20vh;距顶端高度
   margin: 0;
 }
 
 html {
   background: #090000;
-  font-size: calc(1em + 3vmax);
+  font-size: calc(1em + 2vmax);
   line-height: 1.1;
   text-align: center;
 }
@@ -34,12 +34,12 @@ x-sign {
 }
 
 x-sign:nth-of-type(1) {
-  color: yellow;
-  --color1: goldenrod;
-  --color2: orangered;
-  --color3: mediumblue;
-  --color4: purple;
-  font-family: Gruppo;
+  color: azure;
+  --color1: azure;
+  --color2: aqua;
+  --color3: dodgerblue;
+  --color4: blue;
+  font-family: Sriracha;
 }
 
 x-sign:nth-of-type(2) {
@@ -69,14 +69,13 @@ x-sign:nth-of-type(4) {
   font-family: Londrina Outline;
 }
 
-
 x-sign:nth-of-type(5) {
-  color: azure;
-  --color1: azure;
-  --color2: aqua;
-  --color3: dodgerblue;
-  --color4: blue;
-  font-family: Sriracha;
+  color: yellow;
+  --color1: goldenrod;
+  --color2: orangered;
+  --color3: mediumblue;
+  --color4: purple;
+  font-family: Gruppo;
 }
 
 x-sign:nth-of-type(6) {
